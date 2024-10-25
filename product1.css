@@ -1,0 +1,128 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top .header-top-right{
+    padding-right: 155px;
+    float: right;
+}
+
+.header-top .header-top-right .header-top-right-content a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center !important;
+    margin-right: 30px;
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.header-last{
+    background-color: rgb(84,108,232);
+}
+
+.header-last .header-last-content .up{
+    display: flex ;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tel a{
+    text-decoration: none;
+    color: #eee;
+    display: flex;
+    align-items: center;
+}
+
+.tel a p span{
+    margin-bottom: -10px;
+}
+
+.font{
+    color: #eee;
+}
+
+.font i{
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.font span{
+    font-size: 12px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.comp{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-nav li{
+    margin-right: 30px;
+    color: #eee;
+}
+
+.navbar-nav li a i{
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.navbar-nav li a span{
+    font-size: 13px;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+#left{
+    left: 0;
+}
+#right{
+    right: 25px;
+}
+
+.bottom-img{
+    display: flex;
+}
+.bottom-img img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    padding: auto;
+    margin-top: 10px;
+}
+/* 
+.price span{
+    padding: 10px 12px;
+    text-align: left;
+} */
